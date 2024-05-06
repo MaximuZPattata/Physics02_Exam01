@@ -1,0 +1,101 @@
+{
+	"ModelProperties": [
+		{
+			"ModelName": "Ground",
+			"FilePath": "Terrain_xyz_n_rgba_uv.ply",
+			"Position": [-148.0, -343.0, -91.0],
+			"Rotation": [0.0, 0.0, 0.0],
+			"Scale": 10.0,
+			"bMeshLightsOn": true,
+			"bWireframeModeOn": false,
+			"bUseManualColors": false,
+			"bIsSkyBox":false,
+			"bUseTextures": true,
+			"TextureDetails": [
+				{
+					"bTextureBlend": false,
+					"bUseDiscardMask":false,
+					"DiscardMaskTexturePath": "FAKE_Stencil_Texture_612x612.bmp",
+					"TexturePath": "Blank_UV_Text_Texture.bmp",
+					"TextureName": "Taylor"
+				}
+			],
+			"Color": [0.5, 0.5, 0.5]
+		},
+		{
+			"ModelName": "Flag",
+			"FilePath": "50x50_GridRectangle.ply",
+			"Position": [0.25, 0.0, 0.0],
+			"Rotation": [0.0, 0.0, 0.0],
+			"Scale": 10.0,
+			"bMeshLightsOn": true,
+			"bWireframeModeOn": false,
+			"bUseManualColors": false,
+			"bIsSkyBox":false,
+			"bUseTextures": true,
+			"TextureDetails": [
+				{
+					"bTextureBlend": false,
+					"bUseDiscardMask":false,
+					"DiscardMaskTexturePath": "",
+					"TexturePath": "Flag.bmp",
+					"TextureName": "FlagTexture"
+				}
+			]
+		},
+		{
+			"ModelName": "Sphere_01",
+			"FilePath": "Sphere_1_unit_Radius_uv.ply",
+			"Position": [10.0, 100.0, 15.0],
+			"Rotation": [0.0, 0.0, 0.0],
+			"Scale": 5.0,
+			"bMeshLightsOn": true,
+			"bWireframeModeOn": false,
+			"bUseManualColors": false,
+			"bUseTextures": false,
+			"bIsSkyBox":true,
+			"Color": [0.85, 0.1, 0.1]
+		},
+		{
+			"ModelName": "FlagPole",
+			"FilePath": "Flagpole.ply",
+			"Position": [-65.0, -70.0, 2.0],
+			"Rotation": [0.0, 0.0, 0.0],
+			"Scale": 20.0,
+			"bMeshLightsOn": false,
+			"bWireframeModeOn": false,
+			"bUseManualColors": false,
+			"bUseTextures": false,
+			"bIsSkyBox":false,
+			"Color": [0.85, 0.1, 0.1]
+		}
+	],
+	"CubeMapProperties": {
+		"MapName": "MorningSky",
+		"MapTexturePath": { 
+			"LeftTexture": "TropicalSunnyDayLeft2048.bmp",
+			"RightTexture":"TropicalSunnyDayRight2048.bmp",
+			"TopTexture": "TropicalSunnyDayUp2048.bmp",
+			"DownTexture": "TropicalSunnyDayDown2048.bmp",
+			"FrontTexture": "TropicalSunnyDayFront2048.bmp", 
+			"BackTexture": "TropicalSunnyDayBack2048.bmp"
+		}
+	},
+	"LightProperties": [
+		{
+			"LightId": 0,
+			"bLightOn": true, 
+			"LightType": 2.0,
+			"LinearAttenuation": 0.1,
+			"QuadraticAttenuation": 0.0,
+			"InnerAngle": 0.50,
+			"OuterAngle": 1.0,
+			"LightPosition": [0.0, 30.0, 0.0],
+			"LightDirection": [0.0, -1.0, 0.0],
+			"LightColor": [1.0, 1.0, 1.0]
+		}
+	],
+	"CameraProperties": {
+		"CameraPosition": [139.0, -87.0, 606.0]
+	}
+}
